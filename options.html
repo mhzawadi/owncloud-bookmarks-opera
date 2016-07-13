@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <head>
+        <title>OC Bookmarks Settings</title>
+        <link rel="stylesheet" href="css/header.css" media="screen">
+        <link rel="stylesheet" href="css/styles.css" media="screen">
+    </head>
+    <body id="body-user">
+        <header role="banner">
+            <div id="header">
+                <a href="popup.html" id="owncloud" tabindex="1">
+                    <div class="logo-icon svg">
+                        <h1 class="hidden-visually">Horwood Mini</h1>
+                    </div>
+                </a>
+
+                <a href="popup.html" class="header-appname-container menutoggle" tabindex="2">
+                    <h1 class="header-appname">Bookmarks</h1>
+                    <div class="icon-caret svg"></div>
+                </a>
+
+                <div id="logo-claim" style="display:none;"></div>
+                <div id="settings">
+                <ul id="nav">
+                    <li>
+                        <a href="#">Menu<img alt="" src="img/caret.png"></a>
+                        <ul>
+                            <li>
+                                <a href="popup.html">
+                                    <img alt="" src="img/personal.png">
+                                    List
+                                </a>
+                            </li>
+                            <li>
+                                <a href="help.html">
+                                    <img alt="" src="img/help.png">
+                                    Help
+                                </a>
+                            </li>
+                            <li>
+                                <a id="logout" href="#">
+                                    <img alt="" src="img/logout.png">
+                                    Log out
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </header>
+        <div id="content-wrapper">
+            <div class="content-inner-container">
+                <div class="section-wrapper" id="ril-keyboard-shortcut">
+                    <p id="upd_txt"></p>
+                </div>
+                <h2 data-localize="options_options_title">OPTIONS</h2>
+                <div class="section-wrapper">
+                    <h3 data-localize="options_login_title">ownCloud URL:</h3>
+                    <ul class="section-item-list">
+                        <li><input id="ocurl" type="text" name="ocurl" placeholder="https://site.here.com" value="https://site.here.com" /></li>
+                    </ul>
+                </div>
+                <div class="section-wrapper" id="ril-keyboard-shortcut">
+                    <h3 data-localize="options_keyboard_shortcut_title">User account:</h3>
+                    <ul class="section-item-list">
+                        <li><input id="username" type="text" name="username" placeholder="username" value="username" /></li>
+                        <li><input id="password" type="password" placeholder="password" value="password" /></li>
+                    </ul>
+                </div>
+                <div class="section-wrapper" id="ril-keyboard-shortcut">
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/controller.min.js"></script>
+        <script src="js/options-page.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+#header,#navigation,#expanddiv{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
+#skip-to-content a{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+#skip-to-content a:focus{left:76px;top:-9px;color:#fff;width:auto;height:auto}
+#body-user #header,#body-settings #header,#body-public #header{position:fixed;top:0;left:0;right:0;z-index:2000;height:45px;line-height:2.5em;background-color:#1d2d44;-moz-box-sizing:border-box;box-sizing:border-box;box-sizing:border-box;background:#004c2c;background:-moz-linear-gradient(top,#c1d2c0 0%,#004c2c 100%);background:-webkit-gradient(linear,left top,left bottom,from(#c1d2c0),to(#004c2c));background:-webkit-linear-gradient(top,#c1d2c0 0%,#004c2c 100%);background:-o-linear-gradient(top,#c1d2c0 0%,#004c2c 100%);background:-ms-linear-gradient(top,#c1d2c0 0%,#004c2c 100%);background:linear-gradient(top,#c1d2c0 0%,#004c2c 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1d2c0',endColorstr='#004c2c',GradientType=0);border-bottom:3px solid #ae8b65}
+#owncloud{position:absolute;top:0;left:0;padding:5px;padding-bottom:0;height:52px;-moz-box-sizing:border-box;box-sizing:border-box;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+#owncloud:focus{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=75);opacity:.75}
+#owncloud:hover,#owncloud:active{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+#header .logo{background-image:url(../img/icon_48.png);background-repeat:no-repeat;background-size:175px;background-position:center 30px;width:252px;height:120px;margin:0 auto}
+#header .logo-icon{display:inline-block;background-image:url(../img/icon_48.png);background-repeat:no-repeat;width:62px;height:48px}
+#header .header-appname-container{display:inline-block;position:absolute;left:70px;height:27px;padding-top:18px;padding-right:12px}
+.header-appname-container .header-appname,.menutoggle .icon-caret{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=75);opacity:.75}
+.menutoggle:hover .header-appname,.menutoggle:hover .icon-caret,.menutoggle:focus .header-appname,.menutoggle:focus .icon-caret,.menutoggle.active .header-appname,.menutoggle.active .icon-caret{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+.header-appname{display:inline-block;position:relative;color:#fff;font-size:16px;font-weight:300;margin:0;margin-top:-24px;padding:7px 0 7px 5px;vertical-align:middle}
+#header .icon-caret{display:inline-block;width:12px;height:12px;margin:0;margin-top:-21px;padding:0;vertical-align:middle}
+#body-public #header .icon-caret{display:none}
+.header-right{position:absolute;right:0;padding:7px 5px;color:#fff;height:100%;max-width:80%;white-space:nowrap;-moz-box-sizing:border-box;box-sizing:border-box}
+#header .avatardiv{float:left;display:inline-block;margin-right:8px;cursor:pointer;height:32px;width:32px}
+#header .avatardiv img{opacity:1;cursor:pointer}
+#settings{float:right;color:#bbb;cursor:pointer}
+#expand{display:block;padding:7px 30px 6px 10px;cursor:pointer}
+#expand *{cursor:pointer}
+#expand:hover,#expand:focus,#expand:active{color:#fff}
+#expand img{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);opacity:.7;margin-bottom:-2px}
+#expand:hover img,#expand:focus img,#expand:active img{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+#expanddiv{position:absolute;right:10px;top:45px;z-index:2000;display:none;background-color:rgba(0,0,0,.97);box-shadow:0 1px 10px rgba(50,50,50,.7);border-radius:3px;border-top-left-radius:0;border-top-right-radius:0;-moz-box-sizing:border-box;box-sizing:border-box}
+#expanddiv a{display:block;height:40px;color:#fff;padding:4px 12px 0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);opacity:.7;-moz-box-sizing:border-box;box-sizing:border-box}
+#expanddiv a img{margin-bottom:-3px;margin-right:6px}
+#expanddiv a:hover,#expanddiv a:focus,#expanddiv a:active,#expanddiv a.active{-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1}
+#header .avatardiv.avatardiv-shown + #expandDisplayName{display:none}
+#header #expand{display:block}
