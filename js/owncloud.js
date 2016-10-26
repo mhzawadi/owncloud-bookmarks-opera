@@ -12,6 +12,7 @@ if (!localStorage.getItem('ocurl')) {
         document.getElementById('ocrefresh').onclick = function(){
             bookmarkApp.refresh();
         };
+        document.getElementById('search').addEventListener('submit', bookmarkApp.search);
     };
     window.addEventListener('load', init);
 }

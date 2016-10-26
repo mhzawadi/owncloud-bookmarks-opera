@@ -27,20 +27,6 @@ init = function(){
         document.getElementById('password').value = bookmarkApp.ocpassword;
         document.getElementById("upd_txt").innerHTML = 'Settings Updated';
         document.getElementById("upd_txt").className = 'bookmark_tag';
-        chrome.bookmarks.getTree(function (bmTree) {
-            found_oc = 0;
-            bmTree.forEach( function (node){
-                if(node.title == 'ownCloud'){
-                    found_oc = node.id;
-                }
-            });
-            if(found_oc === 0){
-                chrome.bookmarks.create({
-                    'title': 'ownCloud',
-                    'parentId': '1'
-                })
-            }
-        });
     };
 };
 window.addEventListener('load', init);

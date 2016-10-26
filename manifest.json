@@ -15,5 +15,5 @@
    "options_page": "options.html",
    "permissions": [ "storage", "bookmarks" ],
    "update_url": "http://amhorwood.plus.com/ocbk/updateInfo.xml",
-   "version": "0.0.22"
+   "version": "0.0.26"
 }
